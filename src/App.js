@@ -4,6 +4,7 @@ import Home from'./pages/Home';
 import Research from'./pages/Research';
 import Contact from'./pages/Contact';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/research" element={<Research />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
