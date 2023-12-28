@@ -2,7 +2,7 @@
     width: 100%;
     align-items: center;
     font-family: "Arial", sans-serif;
-    color: #3e497a;
+    color: white;
 }
 
 .about {
@@ -13,8 +13,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #0b1b43;
-    color: #f0f0f0;
+    background-color: white;
+    color: #0b1b43;
 }
 
 .experience {
@@ -25,14 +25,21 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #0b1b43;
-    color: #f0f0f0;
+    background-color: white;
+    color: #0b1b43;
 }
 
 .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50px;
-    color: #e9d35b;
+    color: #0b1b43;
+    height: 50px;
+}
+
+.experience h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #0b1b43;
     height: 50px;
 }
 
@@ -44,11 +51,15 @@
 .prompt svg {
     font-size: 40px;
     margin: 5px;
-    color: white;
+    color: #0b1b43;
 }
 
 @media only screen and (max-width: 600px) {
     .about h2 {
+        font-size: 40px;
+    }
+
+    .experience h2 {
         font-size: 40px;
     }
 

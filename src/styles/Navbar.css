@@ -2,7 +2,7 @@
     width: 100%;
     height: 100px;
     font-family: "Arial", sans-serif;
-    background: #0b1b43;
+    background: white;
   }
 
 .AH {
@@ -11,7 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  color: white;
+  color: #0b1b43;
 }
 
 .links {
@@ -20,11 +20,11 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  color: white;
+  color: #0b1b43;
 }
 
 .navbar a {
-  color: white;
+  color: #0b1b43;
   text-decoration: none;
   margin: 20px;
   font-size: 25px;
@@ -45,7 +45,7 @@
   margin-right: 20px;
   background-color: transparent;
   border: none;
-  color: white;
+  color: #0b1b43;
   cursor: pointer;
 }
 
