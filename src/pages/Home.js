@@ -12,13 +12,24 @@ function Home() {
     return (
         <div className="home">
             <section className="about-wrapper">
-                <div className="about">
-                    <h2>About me</h2>
-                    <div className="prompt"> 
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining.</p>
-                    </div>
+                <div className="about-left">
+                    <img src={headshot} alt="Profile" className="headshot"/>
+                    <p className="name">Aamal Hussain</p>
+                    <p className="curr-title"> Machine Learning Researcher </p>
+                    {/* <p className="curr-location"> PhysicsX </p> */}
+                    <a
+                        href="https://www.physicsx.ai/" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="curr-location">
+                        PhysicsX
+                    </a>
                 </div>
-                <img src={headshot} alt="Profile" className="headshot"/>
+
+                <div className="about-right">
+                    <p className="about-me">About me</p>
+                    <p className="prompt"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining.</p>
+                </div>
             </section>
 
             <section className="experience">

@@ -1,7 +1,7 @@
 .navbar {
     width: 85rem;
     height: 100px;
-    font-family: "Arial", sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     background: white;
     justify-content: space-between;
     align-items: center;
@@ -10,9 +10,13 @@
     box-sizing: border-box;
     margin: 0 auto;
     font-size: 1.8rem;
-    font-weight: bold;
     color: #0b1b43;
   }
+
+.navbar .name {
+  font-size: 2rem;
+  font-weight: bold;
+}
 
 .menuItem {
   cursor: pointer;
