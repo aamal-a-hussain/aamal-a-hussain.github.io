@@ -8,8 +8,8 @@
 
 .home__container {
     display: grid;
-    grid-template-columns: 35% 60%;
-    /* gap: 5%; */
+    grid-template-columns: 40% 65%;
+    grid-column-gap: ;
 }
 
 .home__left {
@@ -18,9 +18,11 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    background-color: lightblue;
 }
 
 .home__right {
+    background-color: grey;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -30,9 +32,9 @@
 .container .home__right-bottom {
     margin-top: 1.8rem;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
 }
 
 .home__right-bottom .container__interests {
@@ -112,4 +114,46 @@
 
 .education-icon {
     width: 4rem;
+}
+
+/** ================== SMALLER SCREENS ===========================**/
+
+@media screen and (max-width: 1024px) {
+    /* .container {
+        padding-bottom: 4rem;
+    } */
+
+    .home__container {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    .container__tech-stack {
+        margin-top: 4rem;
+    }
+
+    .about-image img {
+        width: 65%;
+    }
+     
+}
+
+@media screen and (max-width: 600px) {
+    .home__container {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    .container__tech-stack {
+        margin-top: 5rem;
+    }
+
+    .about-image img {
+        width: 65%;
+    }
+
+    .container .home__right-bottom {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
 }
