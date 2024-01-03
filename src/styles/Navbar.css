@@ -1,37 +1,52 @@
 .navbar {
-    width: 85rem;
-    height: 100px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background: white;
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    padding: 40px 60px;
-    box-sizing: border-box;
-    margin: 0 auto;
-    font-size: 1.8rem;
-    color: #0b1b43;
-  }
+  width: 100%;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 2px 5px rgba(79, 79, 79, 0.5);
+  background-color: var(--color-white);
+}
 
-.navbar .name {
+.container__navbar {
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 20px 60px;
+  font-size: 1.8rem;
+  margin: 0 auto;
+}
+
+
+/** ================== DETAILS ===========================**/
+
+
+.navbar-name {
   font-size: 2rem;
   font-weight: bold;
+  border-bottom: 3px solid var(--color-white);
+  padding-bottom: 0.1rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
 }
 
 .menuItem {
   cursor: pointer;
+  color: var(--color-blue);
+  border-bottom: 3px solid var(--color-white);
+  padding-bottom: 0.1rem;
 }
 
 .menuItem:hover {
-  border-bottom: 3px solid #0b1b43;
-  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--color-blue);
+  transition: 0.3s ease;
+  padding-bottom: 0.1rem;
 }
 
-.navbar a {
-  color: #0b1b43;
-  text-decoration: none;
-  margin: 20px;
-}
+
 /* ---- */
 
 .toggleButton {

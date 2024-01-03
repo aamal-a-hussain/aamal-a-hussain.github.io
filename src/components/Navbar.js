@@ -13,7 +13,8 @@ function Navbar() {
 
     return (
         <nav className="navbar" id={expandNavbar ? "open" : "close"}>
-                <div className="name"> Aamal Hussain </div> 
+            <div className="container__navbar">
+                <div className="navbar-name"> Aamal Hussain </div> 
                 
                 <div className="toggleButton">
                     <button onClick={() => setExpandNavbar((prev) => !prev)}> 
@@ -23,10 +24,10 @@ function Navbar() {
 
                 <div className="menu">
                     <Link className="menuItem" to="/"> Home </Link>
-                    <Link className="menuItem" to="/research"> Research </Link>
+                    <Link className="menuItem" to="/research"> Publications </Link>
                     <Link className="menuItem" to="/contact"> Contact </Link>
                 </div>
-            
+            </div>
         </nav>
     );
 }
