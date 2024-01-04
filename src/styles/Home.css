@@ -137,8 +137,10 @@
         width: 65%;
     }
 
-    .home__right-bottom {
+    .container .home__right-bottom {
+        margin-top: 0;
         flex-direction: column;
+        gap: 3rem;
     }
 
     /* .home__right-bottom .container__interests {
@@ -165,7 +167,8 @@
         width: 65%;
     }
 
-    .home__right-bottom {
+    .container  .home__right-bottom {
+        margin-top: 0;
         flex-direction: column;
         gap: 3rem;
     }

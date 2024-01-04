@@ -79,7 +79,7 @@ function Home() {
 
             <div className="container  container__tech-stack">
                 <p className="title-2">Tech Stack</p>
-                <p className="title-2">Skills</p>
+                {/* <p className="title-2">Skills</p> */}
             </div>
 
         </section>
