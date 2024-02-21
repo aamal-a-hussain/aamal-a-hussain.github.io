@@ -3,8 +3,8 @@ import "../styles/Footer.css"
 
 function Footer() {
     return (
-        <div className="footer">
-            <p> &copy; 2023 aamalhussain.com</p>
+        <div className="container container__footer">
+            <p className="txt"> &copy; 2024 aamalhussain.com</p>
         </div>
     );
 }
