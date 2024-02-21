@@ -4,18 +4,26 @@ import {publicationList} from "../helpers/publicationList";
 import "../styles/Research.css"
 
 function Research() {
-    return <div className="publication">
-        <h1>Publications</h1>
-        <div className="publicationList">
-            {publicationList.map((publication) => {
-                return <PublicationItem 
-                    title={publication.title} 
-                    authors={publication.authors} 
-                    conference={publication.conference}
-                    path={publication.path}/>
-            })}
+    return (
+        <div className="publication">
+
+            <div className="container publication__container">
+                <p className="title">Publications</p>
+
+                <div className="publication-list">
+                    {publicationList.map((publication) => {
+                        return <PublicationItem 
+                            title={publication.title} 
+                            authors={publication.authors} 
+                            conference={publication.conference}
+                            description={publication.description}
+                            path={publication.path}/>
+                    })}
+                </div>
+            </div>
+
         </div>
-    </div>;
+    );      
 }
 
 export default Research;

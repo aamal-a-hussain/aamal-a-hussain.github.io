@@ -15,7 +15,7 @@
 }
 
 .container__research-topics {
-    background-color: rgb(235, 235, 235);
+    background-color: var(--color-lightgrey);
 }
 
 .home__left {
@@ -73,7 +73,7 @@
     margin-top: 1rem;
     margin-bottom: 0.5rem;
     font-size: 1.8rem;
-    color: rgb(111, 110, 110);
+    color: var(--color-darkgrey);
     line-height: 1.2;
 }
 
@@ -113,7 +113,7 @@
 
 .education-location {
     font-size: 1.2rem;
-    color: rgb(111, 110, 110);
+    color: var(--color-darkgrey);
     margin-bottom: 1rem;
 }
 
