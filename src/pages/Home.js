@@ -37,9 +37,9 @@ function Home() {
                             <p className="title-2">  Interests </p>
                             <ul className="bullet-points">
                                 <li>Game Theory</li>
-                                <li>Control</li>
+                                <li>Control Theory</li>
                                 <li>Dynamical Systems</li>
-                                <li>Dynamical Systems</li>
+                                <li>Probabilistic Modelling</li>
                             </ul>
                         </div>
 
@@ -77,9 +77,18 @@ function Home() {
 
             </div>
 
-            <div className="container  container__tech-stack">
-                <p className="title-2">Tech Stack</p>
-                {/* <p className="title-2">Skills</p> */}
+            <div className="container  container__research-topics">
+                <p className="title">Research Topics</p>
+
+                <div className="research-item">
+                    <p className="title-2">Proficient with</p>
+                    <p className="txt">Python, C#, PyTorch, Gaussian Processes</p>
+                </div>
+
+                <div className="topics-of-interest">
+                    <p className="title-2">Topics of Interest</p>
+                    <p className="title-3">Game Theory</p>
+                </div>
             </div>
 
         </section>
