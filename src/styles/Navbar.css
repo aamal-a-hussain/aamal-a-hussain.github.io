@@ -111,7 +111,11 @@
 
   #open .navbar-name{
     display: none;
-   }
+  }
+
+  .navbar-name{
+    width: 100%;
+  }
 }
 
   
