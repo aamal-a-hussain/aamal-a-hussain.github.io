@@ -69,7 +69,7 @@ body {
 
 @media screen and (max-width: 1600px) {
     .container {
-        width: var(--container-width-md);
+        width: var(--container-width-lg);
     }
     section {
         margin-top: 6rem;

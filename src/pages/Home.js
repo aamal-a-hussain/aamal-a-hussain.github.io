@@ -14,25 +14,25 @@ function Home() {
             
             <div className="container home__container">
 
-                <div className="container home__left">
-                    <div className="about-image">
-                        <img src={headshot} alt="About Image" className="img"/>
+                <div className="home-left">
+                    <img src={headshot} className="profile-img"/>
+                    <div className="home-left-details">
+                        <p className="title">Aamal Hussain</p>
+                        <p className="curr-title"> Machine Learning Researcher </p>
+                        <a  href="https://www.physicsx.ai/" 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="curr-location">
+                            PhysicsX
+                        </a>
                     </div>
-                    <p className="title">Aamal Hussain</p>
-                    <p className="curr-title"> Machine Learning Researcher </p>
-                    <a  href="https://www.physicsx.ai/" 
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="curr-location">
-                        PhysicsX
-                    </a>
                     <div className="profile-links">
-                        <a  href="https://github.com/" 
+                        {/* <a  href="https://github.com/" 
                             target="_blank"
                             rel="noopener noreferrer"
                             className="icon">
                             <FaGithub size={50}/>
-                        </a>
+                        </a> */}
                         <a  href="https://www.linkedin.com/in/aamal-h-283471a3/" 
                             target="_blank"
                             rel="noopener noreferrer"
@@ -48,14 +48,14 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="container home__right">
-                    <div className="container__about-me">
+                <div className="home-right">
+                    <div className="about-me">
                         <p className="title">About me</p>
                         <p className="about-txt"> I am a passionate researcher in the field of behaviour and decision making, specialising in informed decision making, behaviour change, and the influence of digital communication and interventions. My focus spans a variety of topics, ranging from sexual and reproductive health to the disclosure of mental health issues and climate change. In essence, anything related to behaviour and decision making, as well as its support, captures my interest. </p>
                     </div>
 
-                    <div className="container home__right-bottom">
-                        <div className="container__interests">
+                    {/* <div className="home-right-bottom">
+                        <div className="interests">
                             <p className="title-2">  Interests </p>
                             <ul className="bullet-points">
                                 <li>Game Theory</li>
@@ -63,14 +63,14 @@ function Home() {
                                 <li>Dynamical Systems</li>
                                 <li>Probabilistic Modelling</li>
                             </ul>
-                        </div>
+                        </div> */}
 
-                        <div className="container__experience">
+                        <div className="education">
                             <p className="title-2"> Education </p>
                             {/* <div className="education-list"> */}
                             <div className="education-item">
                                 <IoSchool size={45} className="education-icon"/>
-                                <div>
+                                <div className="education-details">
                                     <p className="education-title"> PhD in Reinforcement Learning and Game Theory</p>
                                     <p className="education-location">Imperial College London, 2020-2024</p>
                                 </div>
@@ -78,7 +78,7 @@ function Home() {
 
                             <div className="education-item">
                                 <IoSchool size={45} className="education-icon"/>
-                                <div>
+                                <div className="education-details">
                                     <p className="education-title">MSc in Robotics and Computation</p>
                                     <p className="education-location">University College London (UCL), 2018-2019</p>
                                 </div>
@@ -86,7 +86,7 @@ function Home() {
 
                             <div className="education-item">
                                 <IoSchool size={45} className="education-icon"/>
-                                <div>
+                                <div className="education-details">
                                     <p className="education-title">BS Physics</p>
                                     <p className="education-location">Imperial College London, 2015-2018</p>
                                 </div>
@@ -94,7 +94,7 @@ function Home() {
 
                             {/* <div> */}
                         </div>
-                    </div>
+                    {/* </div> */}
                 </div>
 
             </div>
