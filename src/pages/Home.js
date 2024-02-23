@@ -99,17 +99,19 @@ function Home() {
 
             </div>
 
-            <div className="container  container__research-topics">
-                <p className="title">Research Topics</p>
+            <div className="research-topics">
+                <div className="container  container__research-topics">
+                    <p className="title">Research Topics</p>
 
-                <div className="research-item">
-                    <p className="title-2">Proficient with</p>
-                    <p className="txt">Python, C#, PyTorch, Gaussian Processes</p>
-                </div>
+                    <div className="research-item">
+                        <p className="title-2">Proficient with</p>
+                        <p className="txt">Python, C#, PyTorch, Gaussian Processes</p>
+                    </div>
 
-                <div className="topics-of-interest">
-                    <p className="title-2">Topics of Interest</p>
-                    <p className="title-3">Game Theory</p>
+                    <div className="topics-of-interest">
+                        <p className="title-2">Topics of Interest</p>
+                        <p className="title-3">Game Theory</p>
+                    </div>
                 </div>
             </div>
 

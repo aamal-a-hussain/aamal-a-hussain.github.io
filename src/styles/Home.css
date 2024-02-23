@@ -14,26 +14,32 @@
     flex-direction: row;
 }
 
-.container__research-topics {
+.research-topics {
+    width: 100%;
+    margin-top: 6rem;
+    padding-bottom: 4rem;
     background-color: var(--color-lightgrey);
 }
 
+/* .container__research-topics {
+    
+} */
+
 .home__left {
     flex: 1.2;
-    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     text-align: center;
-    margin-top: 10%; 
+    padding-top: 10%; 
 }
 
 .home__right {
     flex: 2;
-    width: 100%;
     display: flex;
     flex-direction: column;
     text-align: left;
+    padding-left: 5%;
 }
 
 .container .home__right-bottom {
@@ -149,53 +155,28 @@
 /** ================== SMALLER SCREENS ===========================**/
 
 @media screen and (max-width: 1600px) {
-    /* .container {
-        padding-bottom: 4rem;
-    } */
-
     .home__container {
         flex-direction: column;
         gap: 4rem;
-    }
-
-    .container__research-topics {
-        margin-top: 4rem;
-    }
-
-    .about-image img {
-        width: 27rem;
     }
 
     .container .home__right-bottom {
         margin-top: 0;
-        flex-direction: column;
+        flex-direction: row;
         gap: 3rem;
     }
 
-    /* .home__right-bottom .container__interests {
-        flex: 1;
+    .home__right {
+        padding-left: 0;
     }
-    .home__right-bottom .container__experience {
-        flex: 1;
-    } */
     
+    .home__left {
+        padding-top: 1rem;
+    }
      
 }
 
 @media screen and (max-width: 600px) {
-    .home__container {
-        flex-direction: column;
-        gap: 4rem;
-    }
-
-    .container__research-topics {
-        margin-top: 5rem;
-    }
-
-    .about-image img {
-        width: 27rem;
-    }
-
     .container  .home__right-bottom {
         margin-top: 0;
         flex-direction: column;
