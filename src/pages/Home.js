@@ -2,6 +2,8 @@ import React from "react";
 import "../styles/Home.css"
 import "react-vertical-timeline-component/style.min.css"
 import { IoSchool } from "react-icons/io5";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiGooglescholar } from "react-icons/si";
 import headshot from "../assets/Image.jpeg" 
 
 
@@ -24,6 +26,26 @@ function Home() {
                         className="curr-location">
                         PhysicsX
                     </a>
+                    <div className="profile-links">
+                        <a  href="https://github.com/" 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="icon">
+                            <FaGithub size={50}/>
+                        </a>
+                        <a  href="https://www.linkedin.com/in/aamal-h-283471a3/" 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="icon">
+                            <FaLinkedin size={50}/>
+                        </a>
+                        <a  href="https://scholar.google.co.uk/citations?user=HDuqAw8AAAAJ&hl=en&oi=sra" 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="icon">
+                            <SiGooglescholar size={50}/>
+                        </a>
+                    </div>
                 </div>
 
                 <div className="container home__right">
