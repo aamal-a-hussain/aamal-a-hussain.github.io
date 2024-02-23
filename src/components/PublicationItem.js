@@ -21,7 +21,7 @@ function PublicationItem({description, conference, title, authors, path}) {
     <div className="publication-item">
         <PublicationAuthor authors={authors} />
         <p className="publication-location"> {conference} </p>
-        <a href={path} className="publication-link">
+        <a href={path} target="_blank" rel="noopener noreferrer" className="publication-link">
             <p className="publication-title"> {title} </p>
             <p className="publication-description"> {description} </p>
         </a>
