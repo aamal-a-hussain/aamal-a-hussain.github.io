@@ -101,6 +101,16 @@
     color: var(--color-blue);
 }
 
+.button-icon {
+    color: var(--color-blue);
+    background-color: var(--color-white);
+    cursor: pointer;
+}
+
+.copied-message {
+    line-height: 1;
+}
+
 /* .interests .bullet-points li {
     list-style-type: disc;
     margin-left: 3rem;
