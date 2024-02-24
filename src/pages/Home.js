@@ -4,8 +4,8 @@ import "react-vertical-timeline-component/style.min.css"
 import { IoSchool } from "react-icons/io5";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiGooglescholar } from "react-icons/si";
+import { MdEmail } from "react-icons/md";
 import headshot from "../assets/Image.jpeg" 
-
 
 
 function Home() {
@@ -27,12 +27,7 @@ function Home() {
                         </a>
                     </div>
                     <div className="profile-links">
-                        {/* <a  href="https://github.com/" 
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="icon">
-                            <FaGithub size={50}/>
-                        </a> */}
+                        <MdEmail size={55} className="icon"/>
                         <a  href="https://www.linkedin.com/in/aamal-h-283471a3/" 
                             target="_blank"
                             rel="noopener noreferrer"
