@@ -3,7 +3,7 @@ const papers = [
     {
         title: "Equilibria and Convergence of Fictitious Play on Network Aggregative Games",
         authors: "Aamal Hussain, Francesco Belardinelli",
-        conference: "idk",
+        conference: "AAMAS 2022 Workshop on Adaptive and Learning Agents",
         path: "https://ala2022.github.io/papers/ALA2022_paper_42.pdf",
         year: 2022,
         description: `
@@ -31,7 +31,7 @@ const papers = [
     {
         title: "Stability of Multi-Agent Learning: Convergence in Network Games with Many Players",
         authors: "Aamal Hussain, Dan Leonte, Francesco Belardinelli, Georgios Piliouras",
-        conference: "Workshop on New Frontiers in Learning, Control, and Dynamical Systems - ICML 2023",
+        conference: "ICML 2023 Workshop on New Frontiers in Learning, Control, and Dynamical Systems",
         path: "https://arxiv.org/abs/2307.13922",
         year: 2023,
         description: `
@@ -48,7 +48,7 @@ const papers = [
     {
         title: "The impact of exploration on convergence and performance of multi-agent Q-learning dynamics",
         authors: "Aamal Hussain, Francesco Belardinelli, Dario Paccagnan",
-        conference: "International Conference on Machine Learning (ICML) - 2023",
+        conference: "ICML 2023 - International Conference on Machine Learning",
         path: "https://proceedings.mlr.press/v202/hussain23a.html",
         year: 2023,
         description:`
@@ -67,7 +67,7 @@ const papers = [
     {
         title: "Beyond Strict Competition: Approximate Convergence of Multi Agent Q-Learning Dynamics",
         authors: "Aamal Hussain, Francesco Belardinelli, Georgios Piliouras",
-        conference: "International Joint Conference on Artificial Intelligence (IJCAI) - 2023",
+        conference: "IJCAI 2023 - International Joint Conference on Artificial Intelligence",
         path: "https://arxiv.org/abs/2307.13928",
         year: 2023,
         description:`
@@ -87,7 +87,7 @@ const papers = [
     {
         title: "Stability of Multi-Agent Learning in Competitive Networks: Delaying the Onset of Chaos",
         authors: "Aamal Hussain, Francesco Belardinelli",
-        conference: "Association for the Advancement of Artificial Intelligence (AAAI) - 2024",
+        conference: "AAAI 2024 - Association for the Advancement of Artificial Intelligence",
         path: "https://arxiv.org/abs/2312.11943",
         year: 2024,
         description:`
@@ -110,7 +110,7 @@ const papers = [
     {
         title: "Asymptotic Convergence and Performance of Multi-Agent Q-Learning Dynamics",
         authors: "Aamal Hussain, Francesco Belardinelli, Georgios Piliouras",
-        conference: "Autonomous Agents and Multi-Agent Systems (AAMAS) - 2023",
+        conference: "AAMAS 2023 - Autonomous Agents and Multi-Agent Systems",
         path: "https://arxiv.org/abs/2301.09619",
         year: 2023,
         description:`
@@ -125,6 +125,16 @@ const papers = [
             Finally, we examine the performance of the Q-Learning dynamic as measured by the Time Averaged Social Welfare, and 
             comparing this with the Social Welfare achieved by the equilibrium. We provide a sufficient condition whereby the 
             Q-Learning dynamic will outperform the equilibrium even if the dynamics do not converge.
+        `
+    },
+    {
+        title: "On the Stability of Learning in Network Games with Many Player",
+        authors: "Aamal Hussain, Dan Leonte, Francesco Belardinelli, Georgios Piliouras",
+        conference: "AAMAS 2024 - Autonomous Agents and Multi-Agent Systems",
+        path: "TODO",
+        year: 2024,
+        description:`
+            TODO
         `
     }
 ]
