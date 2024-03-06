@@ -8,15 +8,14 @@ function Talks() {
         <div className="talks">
 
             <div className="container talks__container">
-                {/* <p className="title">Talks</p> */}
+                <p className="title">Talks</p>
 
                 <div className="talk-list">
                     {talkList.map((talk) => {
-                        return <talkItem 
+                        return <TalkItem 
                             title={talk.title} 
                             location={talk.location}
-                            description={talk.description}
-                            path={talk.path}/>
+                            description={talk.description}/>
                     })}
                 </div>
             </div>
