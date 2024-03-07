@@ -11,11 +11,11 @@ const talks = [
         `
     },
     {
-        title: "Third Symposium on Machine Learning and Dynamical Systems",
+        title: "Online Learning with Bounded Rationality: Convergence and Optimality",
         location: "Fields Institute 2022",
         year: 2022,
         description: `
-           Poster Presentation
+            Poster presentation at the Third Symposium on Machine Learning and Dynamical Systems 
         `
     },
     {

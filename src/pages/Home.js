@@ -4,6 +4,7 @@ import "react-vertical-timeline-component/style.min.css"
 import { IoSchool } from "react-icons/io5";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiGooglescholar } from "react-icons/si";
+import { IoDocumentText } from "react-icons/io5";
 import headshot from "../assets/Image.jpeg" 
 import EmailComponent from '../components/EmailComponent';
 
@@ -40,6 +41,13 @@ function Home() {
                             className="icon">
                             <SiGooglescholar size={50}/>
                         </a>
+                        <a  href="" 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="icon">
+                            <IoDocumentText  size={50}/>
+                        </a>
+                        
                     </div>
                 </div>
 
