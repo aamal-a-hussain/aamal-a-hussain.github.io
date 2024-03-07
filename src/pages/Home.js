@@ -54,7 +54,13 @@ function Home() {
                 <div className="home-right">
                     <div className="about-me">
                         <p className="title">About me</p>
-                        <p className="about-txt"> I am a passionate researcher in the field of behaviour and decision making, specialising in informed decision making, behaviour change, and the influence of digital communication and interventions. My focus spans a variety of topics, ranging from sexual and reproductive health to the disclosure of mental health issues and climate change. In essence, anything related to behaviour and decision making, as well as its support, captures my interest. </p>
+                        <p className="about-txt"> 
+                            I am a passionate researcher in the field of behaviour and decision 
+                            making, specialising in informed decision making, behaviour change, and the influence of digital 
+                            communication and interventions. My focus spans a variety of topics, ranging from sexual and 
+                            reproductive health to the disclosure of mental health issues and climate change. In essence, 
+                            anything related to behaviour and decision making, as well as its support, captures my interest. 
+                        </p>
                     </div>
 
                     {/* <div className="home-right-bottom">
