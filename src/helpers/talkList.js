@@ -3,7 +3,7 @@ const talks = [
     {
         title: "Machine Learning and Dynamical Systems Seminar",
         location: "Alan Turing Institute 2021 - 2023",
-        image_path: "../assets/Turing Seminar.png",
+        image_name: "TuringSeminar",
         year: 2023,
         description: `
            As a member of the Dynamics of Games Group, I lead 7 sessions on the work
@@ -14,7 +14,7 @@ const talks = [
     {
         title: "Online Learning with Bounded Rationality: Convergence and Optimality",
         location: "Fields Institute 2022",
-        image_path: "../assets/Turing Seminar.png",
+        image_name: "TuringSeminar",
         year: 2022,
         description: `
             Poster presentation at the Third Symposium on Machine Learning and Dynamical Systems 
@@ -23,7 +23,7 @@ const talks = [
     {
         title: "Equilibria and Convergence of Fictitious Play on Network Aggregative Games",
         location: "AAMAS 2022",
-        image_path: "../assets/AAMAS 2022.png",
+        image_name: "AAMAS22",
         year: 2022,
         description: `
             Workshop Presentation
@@ -32,7 +32,7 @@ const talks = [
     {
         title: "Stability of Multi-Agent Learning: Convergence in Network Games with Many Players",
         location: "ICML 2023",
-        image_path: "../assets/W ICML 2023.png",
+        image_name: "wICML23",
         year: 2023,
         description: `
             Workshop Presentation
@@ -41,7 +41,7 @@ const talks = [
     {
         title: "The impact of exploration on convergence and performance of multi-agent Q-learning dynamics",
         location: "ICML 2023",
-        image_path: "../assets/ICML 2023.png",
+        image_name: "ICML23",
         year: 2023,
         description:`
             Paper Presentation & Poster Session
@@ -50,7 +50,7 @@ const talks = [
     {
         title: "Beyond Strict Competition: Approximate Convergence of Multi Agent Q-Learning Dynamics",
         location: "IJCAI 2023",
-        image_path: "../assets/IJCAI 2023.png",
+        image_name: "IJCAI23",
         year: 2023,
         description:`
             Paper Presentation & Poster Session
@@ -59,7 +59,7 @@ const talks = [
     {
         title: "Stability of Multi-Agent Learning in Competitive Networks: Delaying the Onset of Chaos",
         location: "AAAI 2024",
-        image_path: "../assets/AAAI 2024.png",
+        image_name: "AAAI24",
         year: 2024,
         description:`
             Paper Presentation & Poster Session
@@ -68,7 +68,7 @@ const talks = [
     {
         title: "Asymptotic Convergence and Performance of Multi-Agent Q-Learning Dynamics",
         location: "AAMAS 2023",
-        image_path: "../assets/AAMAS 2023.png",
+        image_name: "AAMAS23",
         year: 2023,
         description:`
             Paper Presentation & Poster Session
@@ -77,7 +77,7 @@ const talks = [
     {
         title: "On the Stability of Learning in Network Games with Many Player",
         location: "AAMAS 2024",
-        image_path: "../assets/Turing Seminar.png",
+        image_name: "TuringSeminar",
         year: 2024,
         description:`
             Paper Presentation & Poster Session

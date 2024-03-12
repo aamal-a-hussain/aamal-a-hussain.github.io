@@ -32,6 +32,19 @@
     margin: 1rem;
     padding: 1rem;
     border: 0.2rem solid var(--color-lightgrey);
+    display: flex;
+    flex-direction: row;
+}
+
+.talk-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.talk-img {
+    width: 7cm;
+    margin-right: 1rem;
 }
 
 .talk-location {

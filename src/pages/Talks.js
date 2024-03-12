@@ -15,6 +15,7 @@ function Talks() {
                         return <TalkItem 
                             title={talk.title} 
                             location={talk.location}
+                            image_name={talk.image_name}
                             description={talk.description}/>
                     })}
                 </div>
