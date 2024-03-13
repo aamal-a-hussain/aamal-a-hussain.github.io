@@ -34,6 +34,10 @@
     border: 0.2rem solid var(--color-lightgrey);
 }
 
+.publication-item:hover {
+    box-shadow: 0 0 10px var(--color-lightgrey);
+}
+
 .publication-author {
     font-size: 1.3rem;
     color: var(--color-darkgrey);

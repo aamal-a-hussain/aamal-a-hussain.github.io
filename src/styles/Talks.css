@@ -78,3 +78,12 @@
     font-size: 1.05rem;
     color: var(--color-blue);
 }
+
+
+/** ================== SMALLER SCREENS ===========================**/
+
+@media screen and (max-width: 1500px) {
+    .talk-list {
+        grid-template-columns: 1fr;
+    }
+}
