@@ -16,7 +16,7 @@ const talks = [
         title: "Online Learning with Bounded Rationality: Convergence and Optimality",
         location: "Fields Institute 2022",
         category: "other",
-        image_name: "TuringSeminar",
+        image_name: "FI",
         year: 2022,
         description: `
             Poster presentation at the Third Symposium on Machine Learning and Dynamical Systems 

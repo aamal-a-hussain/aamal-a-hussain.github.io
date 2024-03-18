@@ -170,6 +170,6 @@
 
 @media screen and (max-width: 1000px) {
     .education-details {
-        background-color: red;
+        /* background-color: red; */
     }
 }
