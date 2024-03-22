@@ -46,6 +46,10 @@
   padding-bottom: 0.1rem;
 }
 
+.cv-link {
+  color: var(--color-blue);
+}
+
 
 /** ================== menu icon ===========================**/
 
