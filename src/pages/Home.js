@@ -3,6 +3,9 @@ import "../styles/Home.css"
 import "react-vertical-timeline-component/style.min.css"
 import { IoSchool } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
+import { LuCode2 } from "react-icons/lu";
+import { PiBookOpenTextBold } from "react-icons/pi";
+import { GrAd } from "react-icons/gr";
 import { SiGooglescholar } from "react-icons/si";
 import headshot from "../assets/Image.jpeg" 
 import EmailComponent from '../components/EmailComponent';
@@ -48,11 +51,15 @@ function Home() {
                     <div className="about-me">
                         <p className="title">About me</p>
                         <p className="about-txt"> 
-                            I am a passionate researcher in the field of behaviour and decision 
-                            making, specialising in informed decision making, behaviour change, and the influence of digital 
-                            communication and interventions. My focus spans a variety of topics, ranging from sexual and 
-                            reproductive health to the disclosure of mental health issues and climate change. In essence, 
-                            anything related to behaviour and decision making, as well as its support, captures my interest. 
+                        I am a Junior Researcher in Data Science at PhysicsX, where I am developing machine learning 
+                        methods for modelling dynamical systems on non-Euclidean geometries. Prior to this, I completed 
+                        my PhD at Imperial College London under the supervision of Francesco Belardinelli and Dario 
+                        Paccagnan. My main research interests lie at the intersections of evolutionary game theory, 
+                        multi-agent reinforcement learning and networked dynamical systems. My work has explored the 
+                        influence of graph structures on learning in large games with many players. Additionally, I
+                         have explored how hyperparameter tuning influences the convergence and performance of online 
+                         learning in games. in Besides this, I have also explored problems in optimal and predictive 
+                         control of PDE constrained systems, particularly collective motion. 
                         </p>
                     </div>
 
@@ -89,7 +96,7 @@ function Home() {
                             <div className="education-item">
                                 <IoSchool size={45} className="education-icon"/>
                                 <div className="education-details">
-                                    <p className="education-title">BS Physics</p>
+                                    <p className="education-title">BSc in Physics</p>
                                     <p className="education-location">Imperial College London, 2015-2018</p>
                                 </div>
                             </div>
@@ -103,17 +110,35 @@ function Home() {
 
             <div className="research-topics">
                 <div className="container  container__research-topics">
-                    <p className="title">Research Topics</p>
-
-                    <div className="research-item">
-                        <p className="title-2">Proficient with</p>
-                        <p className="txt">Python, C#, PyTorch, Gaussian Processes</p>
+                    <div className="research-title">
+                        <p className="title">Interests</p>
                     </div>
+                    
+                    
+                    <div className="research-list">
+                        <div className="research-item">
+                            <LuCode2 size={90} className="research-icon"/>
+                            <p className="title-2">Technologies</p>
+                            <p className="research-txt">Python, C++, PyTorch, Julia</p>
+                        </div>
 
-                    <div className="topics-of-interest">
-                        <p className="title-2">Topics of Interest</p>
-                        <p className="title-3">Game Theory</p>
+                        <div className="research-item">
+                            <PiBookOpenTextBold size={90} className="research-icon"/>
+                            <p className="title-2">Specialisation</p>
+                            <p className="research-txt">
+                                Game Theory, Dynamical Systems, Multi-Agent Reinforcement Learning, Online Convex Optimisation
+                            </p>
+                        </div>
+
+                        <div className="research-item">
+                            <GrAd size={90} className="research-icon"/>
+                            <p className="title-2">Topics of Interest</p>
+                            <p className="research-txt">
+                                Optimal Predictive Control, Bayesian Games, Partial Differential Equations, Gaussian Process, Deep Learning
+                            </p>
+                        </div>
                     </div>
+                    
                 </div>
             </div>
 

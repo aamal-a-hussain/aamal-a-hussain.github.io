@@ -11,7 +11,8 @@
 
 .research-topics {
     margin-top: 6rem;
-    padding-bottom: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
     background-color: var(--color-lightgrey);
 }
 
@@ -140,17 +141,38 @@
 }
 
 /* RESEARCH TOPICS */
-.research-item {
+.research-list {
     display: flex;
-    align-items: flex-start;
     flex-direction: row;
-    gap: 0.8rem;
-    font-size: 1.55rem;
+    margin-top: 3rem;
+    gap: 3rem;
+    text-align: center;
+    
 }
 
-.topics-of-interest {
-    font-size: 1.55rem;
+.research-title {
+    text-align: center;
 }
+
+.research-txt {
+    font-size: 1.3rem;
+}
+
+/* .research-icon {
+    stroke-width: 1.5px;
+} */
+
+.research-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    gap: 0.8rem;
+    font-size: 1.55rem;
+    flex: 1;
+}
+
 
 /** ================== SMALLER SCREENS ===========================**/
 
