@@ -8,9 +8,7 @@ function Navbar() {
     const [expandNavbar, setExpandNavbar] = useState(false);
     const location = useLocation();
 
-    useEffect(() => {
-        setExpandNavbar(false);
-    }, [location]);
+    useEffect(() => { setExpandNavbar(false) }, [location]);
 
     return (
         <nav className="navbar" id={expandNavbar ? "open" : "close"}>

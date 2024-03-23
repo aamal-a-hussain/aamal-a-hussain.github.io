@@ -1,8 +1,8 @@
 import React from "react";
 
-function TalkItem({description, location, title, image_name}) {
+function TalkItem({description, location, title, image_name, path}) {
     return (
-    <div className="talk-item">
+    <a href={path} target="_blank" rel="noopener noreferrer" className="talk-item">
         <div className="talk-img">
             <img src={require(`../assets/${image_name}.png`)}/>
         </div>
@@ -12,7 +12,7 @@ function TalkItem({description, location, title, image_name}) {
             <p className="talk-location"> {location} </p>
             <p className="talk-description"> {description} </p>
         </div>
-    </div>
+    </a>
     );
 }
 

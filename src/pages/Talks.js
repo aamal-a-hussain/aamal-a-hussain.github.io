@@ -30,6 +30,7 @@ function Talks() {
                             title={talk.title} 
                             location={talk.location}
                             image_name={talk.image_name}
+                            path={talk.path ? talk.path : null}
                             description={talk.description}/>
                     })}
                 </div>

@@ -6,6 +6,7 @@ const talks = [
         category: "other",
         image_name: "TuringSeminar",
         year: 2023,
+        //path: ,
         description: `
            As a member of the Dynamics of Games Group, I lead 7 sessions on the work
            carried out over my PhD. I covered the key aspects of the fields of ... and 
@@ -18,6 +19,7 @@ const talks = [
         category: "other",
         image_name: "FI",
         year: 2022,
+        //path: ,
         description: `
             Poster presentation at the Third Symposium on Machine Learning and Dynamical Systems 
         `
@@ -28,6 +30,7 @@ const talks = [
         category: "publication",
         image_name: "AAMAS22",
         year: 2022,
+        path: "https://ala2022.github.io/papers/ALA2022_paper_42.pdf",
         description: `
             Workshop Presentation
         `
@@ -38,6 +41,7 @@ const talks = [
         category: "publication",
         image_name: "wICML23",
         year: 2023,
+        path: "https://arxiv.org/abs/2307.13922",
         description: `
             Workshop Presentation
         `
@@ -48,6 +52,7 @@ const talks = [
         category: "publication",
         image_name: "ICML23",
         year: 2023,
+        path: "https://proceedings.mlr.press/v202/hussain23a.html",
         description:`
             Paper Presentation & Poster Session
         `
@@ -58,6 +63,7 @@ const talks = [
         category: "publication",
         image_name: "IJCAI23",
         year: 2023,
+        path: "https://arxiv.org/abs/2307.13928",
         description:`
             Paper Presentation & Poster Session
         `
@@ -68,6 +74,7 @@ const talks = [
         category: "publication",
         image_name: "AAAI24",
         year: 2024,
+        path: "https://arxiv.org/abs/2312.11943",
         description:`
             Paper Presentation & Poster Session
         `
@@ -78,6 +85,7 @@ const talks = [
         category: "publication",
         image_name: "AAMAS23",
         year: 2023,
+        path: "https://arxiv.org/abs/2301.09619",
         description:`
             Paper Presentation & Poster Session
         `
@@ -88,10 +96,11 @@ const talks = [
         category: "publication",
         image_name: "TuringSeminar",
         year: 2024,
+        path: "todo",
         description:`
             Paper Presentation & Poster Session
         `
     }
 ]
 
-export const talkList = talks.sort((a, b) => b["year"]-a["year"])
+export const talkList = talks.sort((a, b) => b["year"] - a["year"])
