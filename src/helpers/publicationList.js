@@ -46,7 +46,7 @@ const papers = [
         `
     },
     {
-        title: "The impact of exploration on convergence and performance of multi-agent Q-learning dynamics",
+        title: "The Impact of Exploration on Convergence and Performance of Multi-Agent Q-Learning Dynamics",
         authors: "Aamal Hussain, Francesco Belardinelli, Dario Paccagnan",
         conference: "ICML 2023 - International Conference on Machine Learning",
         path: "https://proceedings.mlr.press/v202/hussain23a.html",
@@ -65,7 +65,7 @@ const papers = [
         `
     },
     {
-        title: "Beyond Strict Competition: Approximate Convergence of Multi Agent Q-Learning Dynamics",
+        title: "Beyond Strict Competition: Approximate Convergence of Multi-Agent Q-Learning Dynamics",
         authors: "Aamal Hussain, Francesco Belardinelli, Georgios Piliouras",
         conference: "IJCAI 2023 - International Joint Conference on Artificial Intelligence",
         path: "https://arxiv.org/abs/2307.13928",
