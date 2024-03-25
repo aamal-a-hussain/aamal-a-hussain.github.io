@@ -155,9 +155,9 @@ function Home() {
                         </a>  
                         <p className="superviors"> Francesco Belardinelli and Dario Paccagnan </p>
                         
-                        <a href={""} target="_blank" rel="noopener noreferrer" className="dissertation-item"> 
+                        <p className="dissertation-item"> 
                             MSc - An Extension of Obstacle Avoidance Technologies to 3D 
-                        </a>                        
+                        </p>                        
                         <p className="superviors"> Simon Julier and Stephen Hailes </p>
 
                     </div>

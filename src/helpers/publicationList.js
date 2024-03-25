@@ -134,7 +134,30 @@ const papers = [
         path: "TODO",
         year: 2024,
         description:`
-            TODO
+        Multi-agent learning algorithms have been shown to display complex, unstable 
+        behaviours in a wide array of games. In fact, previous works indicate that 
+        convergent behaviours are less likely to occur as the total number of agents 
+        increases. This seemingly prohibits convergence to stable strategies, such as 
+        Nash Equilibria, in games with many players.
+
+        To make progress towards addressing this challenge we study the Q-Learning 
+        Dynamics, a classical model for exploration and exploitation in multi-agent 
+        learning. In particular, we study the behaviour of Q-Learning on games where 
+        interactions between agents are constrained by a network. We determine a number 
+        of sufficient conditions, depending on the game and network structure, which 
+        guarantee that agent strategies converge to a unique stable strategy, called 
+        the Quantal Response Equilibrium (QRE). Crucially, these sufficient conditions 
+        are independent of the total number of agents, allowing for provable convergence 
+        in arbitrarily large games.
+        
+        Next, we compare the learned QRE to the underlying NE of the game, by showing 
+        that any QRE is an ϵ-approximate Nash Equilibrium. We first provide tight 
+        bounds on ϵ and show how these bounds lead naturally to a centralised scheme 
+        for choosing exploration rates, which enables independent learners to learn 
+        stable approximate Nash Equilibrium strategies. We validate the method through 
+        experiments and demonstrate its effectiveness even in the presence of numerous 
+        agents and actions. Through these results, we show that independent learning 
+        dynamics may converge to approximate Nash Equilibria, even in the presence of many agents.
         `
     }
 ]
