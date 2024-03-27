@@ -94,9 +94,9 @@ const talks = [
         title: "On the Stability of Learning in Network Games with Many Player",
         location: "AAMAS 2024",
         category: "publication",
-        image_name: "TuringSeminar",
+        image_name: "AAMAS24",
         year: 2024,
-        path: "todo",
+        path: "https://arxiv.org/abs/2403.15848",
         description:`
             Paper Presentation & Poster Session
         `

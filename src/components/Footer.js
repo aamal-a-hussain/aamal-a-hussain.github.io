@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/Footer.css"
 
 function Footer() {
     return (
         <div className="container container__footer">
-            <p className="txt"> &copy; 2024 aamalhussain.com</p>
+            <p className="txt"> &copy; aamal-a-hussain.github.io by Cristina Nogales</p>
         </div>
     );
 }

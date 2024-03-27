@@ -131,7 +131,7 @@ const papers = [
         title: "On the Stability of Learning in Network Games with Many Player",
         authors: "Aamal Hussain, Dan Leonte, Francesco Belardinelli, Georgios Piliouras",
         conference: "AAMAS 2024 - Autonomous Agents and Multi-Agent Systems",
-        path: "TODO",
+        path: "https://arxiv.org/abs/2403.15848",
         year: 2024,
         description:`
         Multi-agent learning algorithms have been shown to display complex, unstable 
