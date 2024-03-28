@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.48b53f5c.css",
-    "main.js": "/static/js/main.8e7a09c6.js",
+    "main.css": "/static/css/main.fab4fb15.css",
+    "main.js": "/static/js/main.6c7e896c.js",
     "static/media/Image.jpeg": "/static/media/Image.93cace0d2fa0f93579eb.jpeg",
     "static/media/TS.png": "/static/media/TS.13a12cf987f3483778a5.png",
     "static/media/TuringSeminar.png": "/static/media/TuringSeminar.289dd1c35c6bb5cef505.png",
     "static/media/AAMAS23.png": "/static/media/AAMAS23.0306eed20c77492565a3.png",
-    "static/media/Aamal_CV.pdf": "/static/media/Aamal_CV.cd39603eba4f7691abaa.pdf",
+    "static/media/Aamal_CV.pdf": "/static/media/Aamal_CV.f9d094c16c571a478407.pdf",
     "static/media/AAAI24.png": "/static/media/AAAI24.90a134e64be8d06b36ff.png",
     "static/media/ICML23.png": "/static/media/ICML23.223934abb5969b8af392.png",
     "static/media/wICML23.png": "/static/media/wICML23.f42ad7a9a586feba1481.png",
@@ -15,11 +15,11 @@
     "static/media/IJCAI23.png": "/static/media/IJCAI23.8cc1aabdfd440c4eefde.png",
     "static/media/FI.png": "/static/media/FI.6fe52600108b63b5c852.png",
     "index.html": "/index.html",
-    "main.48b53f5c.css.map": "/static/css/main.48b53f5c.css.map",
-    "main.8e7a09c6.js.map": "/static/js/main.8e7a09c6.js.map"
+    "main.fab4fb15.css.map": "/static/css/main.fab4fb15.css.map",
+    "main.6c7e896c.js.map": "/static/js/main.6c7e896c.js.map"
   },
   "entrypoints": [
-    "static/css/main.48b53f5c.css",
-    "static/js/main.8e7a09c6.js"
+    "static/css/main.fab4fb15.css",
+    "static/js/main.6c7e896c.js"
   ]
 }
