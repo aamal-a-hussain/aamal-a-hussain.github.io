@@ -23,7 +23,7 @@ function Home() {
                 <div className="home-left">
                     <img src={headshot} className="profile-img"/>
                     <div className="home-left-details">
-                        <p className="title">Aamal Hussain</p>
+                        <p className="title-1">Aamal Hussain</p>
                         <p className="curr-title"> Machine Learning Researcher </p>
                         <a  href="https://www.physicsx.ai/" 
                             target="_blank"
@@ -38,13 +38,13 @@ function Home() {
                             target="_blank"
                             rel="noopener noreferrer"
                             className="icon">
-                            <FaLinkedin size={50}/>
+                            <FaLinkedin size={40}/>
                         </a>
                         <a  href="https://scholar.google.co.uk/citations?user=HDuqAw8AAAAJ&hl=en&oi=sra" 
                             target="_blank"
                             rel="noopener noreferrer"
                             className="icon">
-                            <SiGooglescholar size={50}/>
+                            <SiGooglescholar size={40}/>
                         </a>
                         
                     </div>
@@ -52,7 +52,7 @@ function Home() {
 
                 <div className="home-right">
                     <div className="about-me">
-                        <p className="title">About me</p>
+                        <p className="title-1">About me</p>
                         <p className="about-txt"> 
                         I am a Junior Researcher in Data Science at PhysicsX, where I am developing Machine Learning 
                         methods for modelling dynamical systems on non-Euclidean geometries. Prior to this, I completed 
@@ -81,7 +81,7 @@ function Home() {
                             <p className="title-2"> Education </p>
                             {/* <div className="education-list"> */}
                             <div className="education-item">
-                                <IoSchool size={45} className="education-icon"/>
+                                <IoSchool size={40} className="education-icon"/>
                                 <div className="education-details">
                                     <p className="education-title"> PhD in Reinforcement Learning and Game Theory</p>
                                     <p className="education-location">Imperial College London, 2020-2024</p>
@@ -89,7 +89,7 @@ function Home() {
                             </div>
 
                             <div className="education-item">
-                                <IoSchool size={45} className="education-icon"/>
+                                <IoSchool size={40} className="education-icon"/>
                                 <div className="education-details">
                                     <p className="education-title">MSc in Robotics and Computation</p>
                                     <p className="education-location">University College London (UCL), 2018-2019</p>
@@ -97,7 +97,7 @@ function Home() {
                             </div>
 
                             <div className="education-item">
-                                <IoSchool size={45} className="education-icon"/>
+                                <IoSchool size={40} className="education-icon"/>
                                 <div className="education-details">
                                     <p className="education-title">BSc in Physics</p>
                                     <p className="education-location">Imperial College London, 2015-2018</p>
@@ -119,13 +119,13 @@ function Home() {
                     
                     <div className="research-list">
                         <div className="research-item">
-                            <LuCode2 size={90} className="research-icon"/>
+                            <LuCode2 size={80} className="research-icon"/>
                             <p className="title-2">Technologies</p>
                             <p className="research-txt">Python, C++, PyTorch, Julia, R</p>
                         </div>
 
                         <div className="research-item">
-                            <PiBookOpenTextBold size={90} className="research-icon"/>
+                            <PiBookOpenTextBold size={80} className="research-icon"/>
                             <p className="title-2">Specialisation</p>
                             <p className="research-txt">
                                 Game Theory, Dynamical Systems, Multi-Agent Reinforcement Learning, Online Convex Optimisation
@@ -133,7 +133,7 @@ function Home() {
                         </div>
 
                         <div className="research-item">
-                            <GrAd size={90} className="research-icon"/>
+                            <GrAd size={80} className="research-icon"/>
                             <p className="title-2">Other Interests </p>
                             <p className="research-txt">
                                 Optimal Predictive Control, Bayesian Games, Partial Differential Equations, Gaussian Process, Deep Learning

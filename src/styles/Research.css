@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 2rem;
-    margin-top: 8rem;
+    margin-top: 6rem;
 }
 
 .publication__container {
@@ -14,9 +14,8 @@
     gap: 2rem;
 }
 
-.title {
-    font-size: 4rem;
-    margin-top: 0.5rem;
+.title-1 {
+    font-size: 2.3rem;
 }
   
 /* PUBLICATION ITEM */
@@ -31,7 +30,7 @@
     box-sizing: border-box;
     margin: 1rem;
     padding: 1rem;
-    border: 0.2rem solid var(--color-lightgrey);
+    border: 0.15rem solid var(--color-lightgrey);
 }
 
 .publication-item:hover {
@@ -39,18 +38,18 @@
 }
 
 .publication-author {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: var(--color-darkgrey);
 }
 
 .publication-location {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: rgb(24, 116, 228);
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
 }
 
 .publication-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     line-height: 1.2;
     margin-bottom: 0.7rem;
@@ -62,6 +61,6 @@
 }
   
 .publication-description {
-    font-size: 1.05rem;
+    font-size: 1rem;
     color: var(--color-blue);
 }

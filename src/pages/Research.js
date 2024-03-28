@@ -8,7 +8,7 @@ function Research() {
         <div className="publication">
 
             <div className="container publication__container">
-                <p className="title">Publications</p>
+                <p className="title-1">Publications</p>
 
                 <div className="publication-list">
                     {publicationList.map((publication) => {

@@ -15,7 +15,7 @@ function EmailComponent () {
     return (
         <div className="email-component" style={{ position: 'relative' }}>
             <button className="button-icon" onClick={copyToClipboard}>
-                <MdEmail size={55} />
+                <MdEmail size={45} />
             </button>
             {copied && <span className="copied-message" style={{ position: 'absolute', bottom: '-20px', left: '50%', transform: 'translateX(-50%)', zIndex: '999' }}>
                 email copied!

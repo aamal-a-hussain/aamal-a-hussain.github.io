@@ -56,12 +56,12 @@
 
 /* ============================== DETAILS ==============================*/
 .profile-img {
-    width: 27rem;
+    width: 18rem;
     border-radius: 50%;
 }
 
-.title {
-    font-size: 3rem;
+.title-1 {
+    font-size: 2.3rem;
     line-height: 1.2;
     margin-bottom: 0.5rem;
     white-space: nowrap;
@@ -69,30 +69,30 @@
 
 .title-2 {
     margin-bottom: 0.5rem;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     font-weight: 600;
 }
 
 .curr-title {
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-    font-size: 1.8rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.3rem;
+    font-size: 1.3rem;
     color: var(--color-darkgrey);
     line-height: 1.2;
 }
 
 .curr-location {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     color: rgb(24, 116, 228);
 }
 
 .curr-location:hover {
     text-decoration: underline ;
-    text-decoration-thickness: 0.2rem;
+    text-decoration-thickness: 0.1rem;
 }
 
 .about-txt {
-    font-size: 1.55rem;
+    font-size: 1rem;
 }
 
 .profile-links {
@@ -129,19 +129,19 @@
 }
 
 .education-title {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     line-height: 1.4;
 }
 
 .education-location {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--color-darkgrey);
     margin-bottom: 1rem;
 }
 
 .education-icon {
     width: 4rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 
 /* RESEARCH TOPICS */
@@ -158,7 +158,7 @@
 }
 
 .research-txt {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 /* .research-icon {
@@ -171,14 +171,14 @@
     flex-direction: column;
     margin-left: 1rem;
     margin-right: 1rem;
-    gap: 0.8rem;
+    gap: 0.5rem;
     font-size: 1.55rem;
     flex: 1;
 }
 
 /* DISSERTATIONS */
 .dissertation-item {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     color: var(--color-blue);
 }
 
@@ -188,13 +188,13 @@
 } */
 
 .superviors {
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: var(--color-darkgrey);
 }
 
 /** ================== SMALLER SCREENS ===========================**/
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1000px) {
     .home__container {
         flex-direction: column;
         gap: 4rem;

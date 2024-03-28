@@ -10,7 +10,7 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="github-icon">
-                <FaGithub size={20}/>
+                <FaGithub size={15}/>
             </a>
         </div>
     );

@@ -20,7 +20,7 @@ function Talks() {
     return (
         <div className="talks">
             <div className="container talks__container">
-                <p className="title">Talks</p>
+                <p className="title-1">Talks</p>
 
                 <Button filter={filter}/>
 
