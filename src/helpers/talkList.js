@@ -8,9 +8,7 @@ const talks = [
         year: 2023,
         //path: ,
         description: `
-           As a member of the Dynamics of Games Group, I lead 7 sessions on the work
-           carried out over my PhD. I covered the key aspects of the fields of ... and 
-           presented several results.
+            Recurring series of tutorials on Dynamic of Online Learning in Games
         `
     },
     {
