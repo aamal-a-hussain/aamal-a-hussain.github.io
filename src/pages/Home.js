@@ -54,14 +54,14 @@ function Home() {
                     <div className="about-me">
                         <p className="title">About me</p>
                         <p className="about-txt"> 
-                        I am a Junior Researcher in Data Science at PhysicsX, where I am developing machine learning 
+                        I am a Junior Researcher in Data Science at PhysicsX, where I am developing Machine Learning 
                         methods for modelling dynamical systems on non-Euclidean geometries. Prior to this, I completed 
-                        my PhD at Imperial College London under the supervision of Francesco Belardinelli and Dario 
-                        Paccagnan. My main research interests lie at the intersections of evolutionary game theory, 
-                        multi-agent reinforcement learning and networked dynamical systems. My work has explored the 
+                        my PhD at Imperial College London under the supervision of Dr. Francesco Belardinelli and Dr. Dario 
+                        Paccagnan. My main research interests lie at the intersections of Game Theory, 
+                        Multi-Agent Reinforcement Learning and Online Optimisation. My work has explored the 
                         influence of graph structures on learning in large games with many players. Additionally, I
                          have explored how hyperparameter tuning influences the convergence and performance of online 
-                         learning in games. Besides this, I have also explored problems in optimal and predictive 
+                         learning in games. Beyond this, I have also explored problems in optimal and predictive 
                          control of PDE constrained systems, particularly collective motion. 
                         </p>
                     </div>
