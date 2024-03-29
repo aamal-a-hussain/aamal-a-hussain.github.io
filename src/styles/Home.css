@@ -107,6 +107,10 @@
     color: var(--color-blue);
 }
 
+.profile-links .profile-icon-email {
+    position: inherit;
+}
+
 .button-icon {
     color: var(--color-blue);
     background-color: var(--color-white);
@@ -192,6 +196,8 @@
     color: var(--color-darkgrey);
 }
 
+
+
 /** ================== SMALLER SCREENS ===========================**/
 
 @media screen and (max-width: 1025px) {
@@ -205,6 +211,9 @@
          
     }
 
+    .home-right {
+        padding-left: 0;
+    }
     
 }
 
