@@ -194,30 +194,98 @@
 
 /** ================== SMALLER SCREENS ===========================**/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1025px) {
     .home__container {
         flex-direction: column;
         gap: 4rem;
     }
 
-    
-}
-
-/* @media screen and (max-width: 600px) {
-    .home-right-bottom {
-        margin-top: 0;
-        flex-direction: column;
-        gap: 3rem;
-    }
-} */
-
-@media screen and (max-width: 1100px) {
-    /* .education-details {
-        background-color: red; 
-    } */
-
     .research-list {
         flex-direction: column;
          
     }
+
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    .profile-img {
+        width: 10rem;
+    }
+    
+    .about-me .title-1 {
+        font-size: 2rem;
+    }
+
+    .home-left-details .title-1 {
+        font-size: 2rem;
+    }
+    
+    .title-2 {
+        font-size: 1.1rem;
+    }
+    
+    .curr-title {
+        font-size: 0.9rem;
+    }
+    
+    .curr-location {
+        font-size: 0.9rem;
+    }
+    
+    .curr-location:hover {
+        text-decoration: underline ;
+        text-decoration-thickness: 0.05rem;
+    }
+    
+    .about-txt {
+        font-size: 0.75rem;
+    }
+    
+    .profile-links {
+        margin-top: 0.5rem;
+    }
+    
+    .profile-icon {
+        max-width: 2rem;
+    }
+
+    .profile-icon-email {
+        max-width: 2.5rem;
+    }
+
+    /* .copied-message {
+        line-height: 1;
+    } */
+    
+    .education-title {
+        font-size: 0.9rem;
+    }
+    
+    .education-location {
+        font-size: 0.75rem;
+    }
+    
+    .education-icon {
+        max-width: 1.7rem;
+    }
+    
+    .research-txt {
+        font-size: 0.75rem;
+    }
+    
+    .research-icon {
+        max-width: 3.5rem;
+    }
+
+    .dissertation-item {
+        font-size: 0.9rem;
+    }
+    
+    .superviors {
+        font-size: 0.75rem;
+        margin-bottom: 0.7rem;
+    }
+  
 }

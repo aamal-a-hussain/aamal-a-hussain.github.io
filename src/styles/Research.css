@@ -64,3 +64,36 @@
     font-size: 1rem;
     color: var(--color-blue);
 }
+
+
+/** ================== SMALLER SCREENS ===========================**/
+@media screen and (max-width: 600px) {
+    .publication__container {
+        gap: 1rem;
+    }
+
+    .publication-list {
+        gap: 0.2rem;
+    }
+
+    .publication__container .title-1 {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+    
+    .publication-author {
+        font-size: 1rem;
+    }
+    
+    .publication-location {
+        font-size: 0.9rem;
+    }
+    
+    .publication-title {
+        font-size: 1.1rem;
+    }
+      
+    .publication-description {
+        font-size: 0.75rem;
+    }
+}

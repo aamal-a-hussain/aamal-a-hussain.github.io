@@ -17,7 +17,7 @@ function Navbar() {
                 
                 <div className="toggleButton">
                     <button onClick={() => setExpandNavbar((prev) => !prev)}> 
-                        <MdMenu />
+                        <MdMenu className="toggle-icon"/>
                     </button>
                 </div>
 

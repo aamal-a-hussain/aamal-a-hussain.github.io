@@ -38,13 +38,13 @@ function Home() {
                             target="_blank"
                             rel="noopener noreferrer"
                             className="icon">
-                            <FaLinkedin size={40}/>
+                            <FaLinkedin size={40} className="profile-icon"/>
                         </a>
                         <a  href="https://scholar.google.co.uk/citations?user=HDuqAw8AAAAJ&hl=en&oi=sra" 
                             target="_blank"
                             rel="noopener noreferrer"
                             className="icon">
-                            <SiGooglescholar size={40}/>
+                            <SiGooglescholar size={40} className="profile-icon"/>
                         </a>
                         
                     </div>

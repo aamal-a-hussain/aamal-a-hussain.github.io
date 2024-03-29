@@ -15,3 +15,16 @@
 .github-icon {
     color: var(--color-blue);
 }
+
+
+
+/** ================== SMALLER SCREENS ===========================**/
+@media screen and (max-width: 600px) {
+    .txt {
+        font-size: 0.65rem;
+    }
+
+    .container__footer {
+        align-items: center;
+    }
+}
