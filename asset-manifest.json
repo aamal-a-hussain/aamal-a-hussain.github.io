@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fab4fb15.css",
-    "main.js": "/static/js/main.6c7e896c.js",
+    "main.css": "/static/css/main.42e43f29.css",
+    "main.js": "/static/js/main.bff0e9bc.js",
     "static/media/Image.jpeg": "/static/media/Image.93cace0d2fa0f93579eb.jpeg",
     "static/media/TS.png": "/static/media/TS.13a12cf987f3483778a5.png",
     "static/media/TuringSeminar.png": "/static/media/TuringSeminar.289dd1c35c6bb5cef505.png",
@@ -15,11 +15,11 @@
     "static/media/IJCAI23.png": "/static/media/IJCAI23.8cc1aabdfd440c4eefde.png",
     "static/media/FI.png": "/static/media/FI.6fe52600108b63b5c852.png",
     "index.html": "/index.html",
-    "main.fab4fb15.css.map": "/static/css/main.fab4fb15.css.map",
-    "main.6c7e896c.js.map": "/static/js/main.6c7e896c.js.map"
+    "main.42e43f29.css.map": "/static/css/main.42e43f29.css.map",
+    "main.bff0e9bc.js.map": "/static/js/main.bff0e9bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.fab4fb15.css",
-    "static/js/main.6c7e896c.js"
+    "static/css/main.42e43f29.css",
+    "static/js/main.bff0e9bc.js"
   ]
 }
