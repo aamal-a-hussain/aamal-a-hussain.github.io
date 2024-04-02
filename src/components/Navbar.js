@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css"
 import { MdMenu } from "react-icons/md";
 import pdf from "../assets/Aamal_CV.pdf";
+import logo from "../assets/logo.png";
 
 function Navbar() {
     const [expandNavbar, setExpandNavbar] = useState(false);
@@ -13,7 +14,7 @@ function Navbar() {
     return (
         <nav className="navbar" id={expandNavbar ? "open" : "close"}>
             <div className="container__navbar">
-                <div className="navbar-name"> Aamal Hussain </div> 
+                <a href="/" className="navbar-name"> Aamal Hussain </a> 
                 
                 <div className="toggleButton">
                     <button onClick={() => setExpandNavbar((prev) => !prev)}> 
