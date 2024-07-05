@@ -121,7 +121,7 @@ function Home() {
                         <div className="research-item">
                             <LuCode2 size={80} className="research-icon"/>
                             <p className="title-2">Technologies</p>
-                            <p className="research-txt">Python, C++, PyTorch, Julia, R</p>
+                            <p className="research-txt">Python, C++, PyTorch, Julia, R, Cython</p>
                         </div>
 
                         <div className="research-item">
