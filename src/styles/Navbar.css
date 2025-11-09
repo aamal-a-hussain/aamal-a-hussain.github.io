@@ -26,6 +26,7 @@
   font-weight: bold;
   border-bottom: 2px solid var(--color-white);
   padding-bottom: 0.1rem;
+  color: var(--color-blue);
 }
 
 .menu {
