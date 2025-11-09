@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
+import { Publication } from "../types";
 
-function PublicationAuthor({ authors }) {
+function PublicationAuthor({ authors }: { authors: string }) {
   const authorArray = authors.split(",").map((author) => author.trim());
 
   return (
@@ -18,7 +19,14 @@ function PublicationAuthor({ authors }) {
   );
 }
 
-function PublicationItem({ description, conference, title, authors, path }) {
+function PublicationItem({
+  description,
+  conference,
+  title,
+  authors,
+  path,
+  year,
+}: Publication) {
   const [showDescription, setShowDescription] = useState(true);
   useEffect(() => {
     const handleResize = () => {

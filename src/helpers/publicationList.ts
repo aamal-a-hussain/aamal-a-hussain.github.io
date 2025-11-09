@@ -1,4 +1,6 @@
-const papers = [
+import { Publication } from "../types";
+
+const papers: Publication[] = [
   {
     title:
       "Equilibria and Convergence of Fictitious Play on Network Aggregative Games",
