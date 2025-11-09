@@ -19,14 +19,14 @@ function Home() {
           <img src={headshot} className="profile-img" />
           <div className="home-left-details">
             <p className="title-1">Aamal Hussain</p>
-            <p className="curr-title"> Machine Learning Researcher </p>
+            <p className="curr-title"> Reinforcement Learning Researcher </p>
             <a
-              href="https://www.physicsx.ai/"
+              href="https://www.latent-technology.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="curr-location"
             >
-              PhysicsX
+              Latent Technology
             </a>
           </div>
           <div className="profile-links">
@@ -58,19 +58,21 @@ function Home() {
           <div className="about-me">
             <p className="title-1">About me</p>
             <p className="about-txt">
-              I am a Junior Researcher in Data Science at PhysicsX, where I am
-              developing Machine Learning methods for modelling dynamical
-              systems on non-Euclidean geometries. Prior to this, I completed my
-              PhD at Imperial College London under the supervision of Dr.
-              Francesco Belardinelli and Dr. Dario Paccagnan. My main research
-              interests lie at the intersections of Game Theory, Multi-Agent
+              I am a Reinforcement Learning Researcher at Latent Technologies,
+              where I study the applications of generative modelling and
+              reinforcement learning in physics-based animation. Prior to this I
+              was a Researcher at PhysicsX where we developed machine learning
+              methods for modelling PDEs on non-Euclidean geometries. I
+              completed my PhD at Imperial College London under the supervision
+              of Dr. Francesco Belardinelli and Dr. Dario Paccagnan. My research
+              considers the intersections of Game Theory, Multi-Agent
               Reinforcement Learning and Online Optimisation. My work has
               explored the influence of graph structures on learning in large
               games with many players. Additionally, I have explored how
               hyperparameter tuning influences the convergence and performance
-              of online learning in games. Beyond this, I have also explored
-              problems in optimal and predictive control of PDE constrained
-              systems, particularly collective motion.
+              of online learning in games. Beyond this, I have also studied
+              problems in geometric deep learning, shape analysis and modelling
+              collective motion.
             </p>
           </div>
 
